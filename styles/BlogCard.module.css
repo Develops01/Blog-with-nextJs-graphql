@@ -1,0 +1,31 @@
+.blogCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40rem;
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.cardsImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardsImg {
+  height: 50%;
+}
+
+.cardsInfoHeader {
+  line-height: 0;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem 0 1rem;
+}
+
+.cardsInfoFooter {
+  margin: 0 1rem 0 1rem;
+  letter-spacing: 0.2rem;
+}
